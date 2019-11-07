@@ -1,0 +1,2 @@
+# Simon dice
+## Para PC
