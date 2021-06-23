@@ -9,7 +9,7 @@ char rand_num()
 
 	do
 	{
-		number = rand()%200;
+		number = rand() % 200;
 	} while (number < 97 || number > 122);
 
 	return (char)number;

@@ -14,9 +14,13 @@ int main()
 	cout << "\033[2J\033[1;1H";
 
 	if (levels > 0)
+	{
 		game(levels);
+	}
 	else
+	{
 		game(32000);
+	}
 
 	return 0;
 }

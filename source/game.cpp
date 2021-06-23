@@ -41,7 +41,9 @@ void game(int max_phases)
 				cout << "La secuencia era ";
 
 				for (int j = 0; j < current_phase; j++)
+				{
 					cout << keys[j];
+				}
 
 				cout << endl;
 
