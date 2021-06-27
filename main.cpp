@@ -1,5 +1,6 @@
 #include <iostream>
 #include "game.h"
+#define MAX_LIMIT 32767
 
 using namespace std;
 
@@ -19,7 +20,7 @@ int main()
 	}
 	else
 	{
-		game(32000);
+		game(MAX_LIMIT);
 	}
 
 	return 0;
