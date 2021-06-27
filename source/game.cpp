@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// Juego
 void game(int max_phases)
 {
 	char keys[max_phases];
