@@ -36,8 +36,8 @@ void game(int max_phases)
 
 			if (input != keys[i])
 			{
-				cout << "Nivel " << current_phase << endl;
-				cout << "La secuencia era ";
+				cout << endl;
+				cout << "Te has equivocado! La secuencia era:" << endl;
 
 				for (int j = 0; j < current_phase; j++)
 				{
