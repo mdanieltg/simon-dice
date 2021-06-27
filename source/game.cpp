@@ -42,6 +42,8 @@ void game(int max_phases)
 				for (int j = 0; j < current_phase; j++)
 				{
 					cout << keys[j];
+					if (j < current_phase - 1)
+						cout << '-';
 				}
 
 				cout << endl;
