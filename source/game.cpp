@@ -32,7 +32,7 @@ void game(int max_phases)
 			do
 			{
 				cin.get(input);
-			} while (input == 10);
+			} while (input < 97 || input > 122);
 
 			if (input != keys[i])
 			{
